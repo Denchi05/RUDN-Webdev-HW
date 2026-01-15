@@ -18,7 +18,6 @@ body {
   color: var(--text-main);
 }
 
-/* Общие настройки для всех изображений */
 img {
   max-width: 100%;
   height: auto;
@@ -200,7 +199,6 @@ a {
   font-size: 0.9rem;
 }
 
-/* Отзывы */
 .reviews {
   display: flex;
   flex-wrap: wrap;
@@ -250,7 +248,6 @@ a {
   color: var(--blue-mid);
 }
 
-/* Галерея */
 .gallery-grid {
   display: grid;
   gap: 10px;
@@ -276,4 +273,32 @@ a {
   .hero-nav {
     display: none;
   }
+}
+
+.two-cols {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.section-text {
+  flex: 1 1 420px;
+}
+
+.phone-mockup,
+.about-photo {
+  flex: 1 1 420px;
+  text-align: center;
+}
+
+.phone-mockup img,
+.about-photo img {
+  max-width: 100%;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-card);
 }
