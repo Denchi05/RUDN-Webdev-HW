@@ -1,0 +1,35 @@
+.header {
+  background: var(--blue-dark);
+  color: var(--white);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  color: var(--yellow);
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
+}
+
+.nav a {
+  color: var(--white);
+  text-decoration: none;
+}
+
+.phone {
+  color: var(--yellow);
+  text-decoration: none;
+}
